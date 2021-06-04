@@ -1,13 +1,11 @@
 pipeline {
 
     environment { 
-
         registry = "mohith321/moviesapp" 
 
         registryCredential = 'dockerhub_cred' 
 
         dockerImage = '' 
-
     }
 
     agent any
@@ -29,8 +27,7 @@ pipeline {
                         sh 'npm run build'
                 },
                 'test':{
-                    echo 'Running Tests'
-                    
+                    echo 'Running Tests'    
                 }
               )
             
