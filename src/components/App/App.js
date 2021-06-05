@@ -7,6 +7,7 @@ import NotFound from "../elements/NotFound/NotFound";
 
 class App extends React.Component {
   render() {
+    //Main COmponent
     return (
       <BrowserRouter>
         <React.Fragment>
