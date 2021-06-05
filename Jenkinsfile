@@ -27,7 +27,8 @@ pipeline {
                         sh 'npm run build'
                 },
                 'test':{
-                    echo 'Running Tests'    
+                    echo 'Running Tests' 
+                     sh 'CI=true npm test'    
                 }
               )
             
