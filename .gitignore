@@ -13,6 +13,7 @@
 
 # misc
 /.history
+/.scannerwork
 .DS_Store
 .env.local
 .env.development.local
