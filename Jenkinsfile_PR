@@ -19,12 +19,9 @@ pipeline {
                         sh 'npm run build'
                 },
                 'test':{
-<<<<<<< HEAD
                     echo 'Running Tests' 
                     sh 'CI=true npm test'      
-=======
-                    echo 'Running Tests'    
->>>>>>> master
+
                 }
               )
             
