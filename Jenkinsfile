@@ -55,8 +55,7 @@ pipeline {
                      
                   echo 'Server Starting...'
                   sh 'chmod 400 jenkins_mohith.pem'
-                  sh "ssh -i 'jenkins_mohith.pem' -o StrictHostKeyChecking=no ec2-user@ec2-54-84-140-90.compute-1.amazonaws.com './deploymovie.sh $registry:$BUILD_NUMBER'"
-                         
+                  sh "ssh -i 'jenkins_mohith.pem' -o StrictHostKeyChecking=no ec2-user@ec2-54-84-140-90.compute-1.amazonaws.com './deploymovie.sh $registry:$BUILD_NUMBER'"       
             }
         }
     }
