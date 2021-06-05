@@ -5,7 +5,7 @@ import Home from "../Home/Home";
 import Movie from "../Movie/Movie";
 import NotFound from "../elements/NotFound/NotFound";
 
-class App  React.Component {
+class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
