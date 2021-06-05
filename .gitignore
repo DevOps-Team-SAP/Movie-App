@@ -12,6 +12,7 @@
 /build
 
 # misc
+/.scannerwork
 /.history
 /.scannerwork
 .DS_Store
