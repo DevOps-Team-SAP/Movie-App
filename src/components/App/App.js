@@ -6,6 +6,8 @@ import Movie from "../Movie/Movie";
 import NotFound from "../elements/NotFound/NotFound";
 
 class App extends React.Component {
+
+  
   render() {
     return (
       <BrowserRouter>
